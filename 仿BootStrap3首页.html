@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/responsive-grid.css" />
+    <style>
+      .box {
+        max-width: 310px;
+        height: 326px;
+        padding: 4px;
+        border: 1px solid #ddd;
+        margin-bottom: 30px;
+        margin-left: auto;
+        margin-right: auto;
+
+        display: flex;
+        flex-direction: column;
+      }
+
+      .box img {
+        width: 100%;
+      }
+
+      .box section {
+        padding: 9px;
+        text-align: center;
+        flex-grow: 1;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+      }
+
+      .box section h3 a {
+        text-decoration: none;
+        font-size: 24px;
+        color: #337ab7;
+        font-weight: 500;
+      }
+
+      .box section h3 a small {
+        font-size: 15.6px;
+        color: #777;
+      }
+
+      .box section p {
+        font-size: 14px;
+        color: #555;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="box col-lg-3 col-md-4 col-sm-6">
+          <img
+            src="https://fastly.jsdelivr.net/npm/@bootcss/www.bootcss.com@0.0.63/dist/img/expo.png"
+            alt=""
+          />
+          <section>
+            <h3>
+              <a href="#">
+                优站精选<br />
+                <small> Bootstrap 网站实例</small>
+              </a>
+            </h3>
+            <p>
+              Bootstrap 优站精选频道收集了众多基于 Bootstrap
+              构建、设计精美的、有创意的网站。
+            </p>
+          </section>
+        </div>
+        <div class="box col-lg-3 col-md-4 col-sm-6">
+          <img
+            src="https://fastly.jsdelivr.net/npm/@bootcss/www.bootcss.com@0.0.63/dist/img/react.png"
+            alt=""
+          />
+          <section>
+            <h3>
+              <a href="#">
+                React<br />
+                <small>用于构建用户界面的 JavaScript 框架</small>
+              </a>
+            </h3>
+            <p>
+              React 起源于 Facebook 的内部项目，是一个用于构建用户界面的
+              JavaScript 库。
+            </p>
+          </section>
+        </div>
+        <div class="box col-lg-3 col-md-4 col-sm-6">
+          <img
+            src="https://fastly.jsdelivr.net/npm/@bootcss/www.bootcss.com@0.0.63/dist/img/webpack.png"
+            alt=""
+          />
+          <section>
+            <h3>
+              <a href="#">
+                Webpack<br />
+                <small>是前端资源模块化管理和打包工具</small>
+              </a>
+            </h3>
+            <p>
+              Webpack
+              是当下最热门的前端资源模块化管理和打包工具。它可以将许多松散的模块按照依赖和规则打包成符合生产环境部署的前端资源。
+            </p>
+          </section>
+        </div>
+        <div class="box col-lg-3 col-md-4 col-sm-6">
+          <img
+            src="https://fastly.jsdelivr.net/npm/@bootcss/www.bootcss.com@0.0.63/dist/img/typescript.png"
+            alt=""
+          />
+          <section>
+            <h3>
+              <a href="#">
+                TypeScript<br />
+                <small>中文手册</small>
+              </a>
+            </h3>
+            <p>
+              TypeScript 是由微软开源的编程语言。它是 JavaScript
+              的一个超集，而且本质上向这个语言添加了可选的静态类型和基于类的面向对象编程。
+            </p>
+          </section>
+        </div>
+        <div class="box col-lg-3 col-md-4 col-sm-6">
+          <img
+            src="https://fastly.jsdelivr.net/npm/@bootcss/www.bootcss.com@0.0.63/dist/img/nextjs.png"
+            alt=""
+          />
+          <section>
+            <h3>
+              <a href="#">
+                Next.js<br />
+                <small>中文文档</small>
+              </a>
+            </h3>
+            <p>Next.js 是一个轻量级的 React 服务端渲染应用框架。</p>
+          </section>
+        </div>
+        <div class="box col-lg-3 col-md-4 col-sm-6">
+          <img
+            src="https://fastly.jsdelivr.net/npm/@bootcss/www.bootcss.com@0.0.63/dist/img/babeljs.png"
+            alt=""
+          />
+          <section>
+            <h3>
+              <a href="#">
+                Babel<br />
+                <small>是一个 JavaScript 编译器。</small>
+              </a>
+            </h3>
+            <p>
+              Babel 是一个 JavaScript 编译器。Babel 通过语法转换器支持最新版本的
+              JavaScript 语法。
+            </p>
+          </section>
+        </div>
+        <div class="box col-lg-3 col-md-4 col-sm-6">
+          <img
+            src="https://fastly.jsdelivr.net/npm/@bootcss/www.bootcss.com@0.0.63/dist/img/npm.png"
+            alt=""
+          />
+          <section>
+            <h3>
+              <a href="#">
+                NPM<br />
+                <small>中文文档</small>
+              </a>
+            </h3>
+            <p>
+              NPM（node package manager）是 Node.js 世界的包管理器。NPM 可以让
+              JavaScript
+              开发者在共享代码、复用代码以及更新共享的代码上更加方便。
+            </p>
+          </section>
+        </div>
+        <div class="box col-lg-3 col-md-4 col-sm-6">
+          <img
+            src="https://fastly.jsdelivr.net/npm/@bootcss/www.bootcss.com@0.0.63/dist/img/yarn.png"
+            alt=""
+          />
+          <section>
+            <h3>
+              <a href="#">
+                Yarn<br />
+                <small>中文文档</small>
+              </a>
+            </h3>
+            <p>Yarn 是一个快速、可靠、安全的依赖管理工具。是 NPM 的替代品。</p>
+          </section>
+        </div>
+        <div class="box col-lg-3 col-md-4 col-sm-6">
+          <img
+            src="https://fastly.jsdelivr.net/npm/@bootcss/www.bootcss.com@0.0.63/dist/img/yarn.png"
+            alt=""
+          />
+          <section>
+            <h3>
+              <a href="#">
+                Yarn v2<br />
+                <small>中文文档</small>
+              </a>
+            </h3>
+            <p>
+              Yarn 是一个快速、可靠、安全的依赖管理工具。是 NPM 的替代品。Yarn
+              v2 与 v1 版本有很大的不同，Yarn v2 改进了 CLI 交互、支持
+              workspace、PnP 等新功能。
+            </p>
+          </section>
+        </div>
+        <div class="box col-lg-3 col-md-4 col-sm-6">
+          <img
+            src="https://fastly.jsdelivr.net/npm/@bootcss/www.bootcss.com@0.0.63/dist/img/pnpm.png"
+            alt=""
+          />
+          <section>
+            <h3>
+              <a href="#">
+                pnpm<br />
+                <small>速度快、节省磁盘空间的软件包管理器</small>
+              </a>
+            </h3>
+            <p>
+              pnpm 是一个速度快、节省磁盘空间的软件包管理器。pnpm 在功能上与 npm
+              和 Yarn 类似。
+            </p>
+          </section>
+        </div>
+        <div class="box col-lg-3 col-md-4 col-sm-6">
+          <img
+            src="https://fastly.jsdelivr.net/npm/@bootcss/www.bootcss.com@0.0.63/dist/img/tailwindcss.png"
+            alt=""
+          />
+          <section>
+            <h3>
+              <a href="#">
+                Tailwind CSS<br />
+                <small>中文文档</small>
+              </a>
+            </h3>
+            <p>
+              Tailwind CSS 是一个用于快速UI开发的实用工具集 CSS 框架。与
+              Bootstrap 、Foundation 不同，Tailwind CSS 没有内置的 UI
+              组件。完全需要开发者根据自身情况来定制设计。
+            </p>
+          </section>
+        </div>
+        <div class="box col-lg-3 col-md-4 col-sm-6">
+          <img
+            src="https://fastly.jsdelivr.net/npm/@bootcss/www.bootcss.com@0.0.63/dist/img/alpinejs.png"
+            alt=""
+          />
+          <section>
+            <h3>
+              <a href="#">
+                Alpine.js<br />
+                <small>中文文档</small>
+              </a>
+            </h3>
+            <p>
+              Alpine.js 通过很低的成本提供了与 Vue 或 React
+              这类大型框架相近的响应式和声明式特性。Alpine.js
+              的语法几乎完全借用自 Vue。
+            </p>
+          </section>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
